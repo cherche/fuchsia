@@ -1,6 +1,7 @@
 body {
 	font-family: Roboto, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 2vh;
+	color: #ff0066;
 }
 input {
 	display: block;
