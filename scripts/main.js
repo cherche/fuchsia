@@ -22,6 +22,13 @@ $(function () {
 					$('#conversation-box').empty().show();
 				});
 			}, 1000);
+		} else if (y === 'penis')	{
+			say(['You can have that talk with your parents.']);
+		} else if (y === 'fuck')	{
+			say(['That's not very nice.'])
+		}	
+			
+		}	
 		} else if (y === 'hi' || y === 'hello' || y === 'hey' || y === 'greetings') {
 			say(['Hi', 'Hello', 'Hey', 'Greetings'][Math.floor(Math.random() * 4)]);
 		} else if (y.startsWith('go to ')) {
