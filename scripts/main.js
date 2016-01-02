@@ -35,6 +35,9 @@ $(function () {
 					$('#conversation-box').empty().show();
 				});
 			}, 1000);
+		} else if (y === 'ayy')	{
+			say(['lmao'])
+		}
 		} else if (y === 'hi' || y === 'hello' || y === 'hey' || y === 'greetings') {
 			say(['Hi', 'Hello', 'Hey', 'Greetings'][Math.floor(Math.random() * 4)] + ['.', '!'][Math.floor(Math.random() * 2)]);
 		} else if (y === 'what are you' || y === 'who are you' || y === 'what do you do') {
