@@ -181,6 +181,9 @@ $(function () {
 			} else {
 				say('That module doesn\'t exist!');
 			}
+		} else if (y === 'fucksia')	{
+			say('While she isn't the best of singers, I think you made a typo there.');
+		}	
 		} else if (y === 'what modules are there' || y === 'what modules are available' || y === 'tell me the modules' || y === 'show me the modules' || y === 'give me the modules' || y === 'list the modules') {
 			var keys = [];
 			for (var key in memory.modules) {
