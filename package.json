@@ -1,0 +1,5 @@
+{
+  "name" : "Fuchsia",
+  "version" : "0.0.1",
+  "main" : "js/electron.js"
+}
